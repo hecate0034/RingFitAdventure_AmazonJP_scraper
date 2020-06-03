@@ -1,12 +1,13 @@
-import requests
 import re
-import pygame
-from time import sleep
 from datetime import datetime
+from time import sleep
 
-url = "https://www.amazon.co.jp/dp/B07XV8VSZT/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88&qid=1589075747&sr=8-1"
+import pygame
+import requests
+
+url = r"https://www.amazon.co.jp/dp/B07XV8VSZT/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88&qid=1589075747&sr=8-1"
 # url = "https://www.amazon.co.jp/%E4%BB%BB%E5%A4%A9%E5%A0%82-%E3%81%82%E3%81%A4%E3%81%BE%E3%82%8C-%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE-Switch/dp/B084HPGQ9W/ref=zg_bs_videogames_1?_encoding=UTF8&psc=1&refRID=5XJYC1V5V679EFG15X21"
-music = r'D:\Desktop\The Phantom of the Opera.MP3'
+music = r'D:\Desktop\T\he Phantom of the Opera.MP3'
 flag = False
 
 
